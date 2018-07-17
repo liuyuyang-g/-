@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        @media screen and (min-width: 1200px){/*>=1200*/
+            body{
+                background: #f00;
+            }
+        }
+        @media screen and (min-width: 768px) and (max-width: 1199px){
+            body{
+                background: #00f;
+            }
+        }
+        @media screen and (orientation:portrait){
+            body{
+                background: #0f0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>响应式</div>
+</body>
+</html>

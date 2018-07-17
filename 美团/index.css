@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #06c1ae;
+    height:3.3rem;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+header .nav-wrap-left,header .nav-wrap-right{
+    color: #fff;
+    font-size:1rem;
+    line-height: 3rem;
+    margin-left: 1rem;
+    margin-right:1rem;
+}
+header .box-search input{
+    width: 16rem;
+    background: #05a494;
+}
+header .box-search input::-webkit-input-placeholder{
+    color: #68dbce;
+    font-size: 0.85rem;
+    font-weight: lighter;
+}
+.banner-load img{
+    width: 26rem;
+}
+.list-in img{
+    width:26rem;
+    height:11.5rem;
+}
+.list-in .list2{
+    display: none;
+}
+.daogou{
+    margin-top:0.5rem;
+}
+.daogou img{
+    width: 26rem;
+}
+.guesslike{
+    /*border-top: 1px solid #DDD8CE;*/
+    border-bottom: 1px solid #DDD8CE;
+    margin-top: .4rem;
+    padding-left: .5rem;
+}
+.guesslike .like{
+    color: #333;
+    padding-bottom: .4rem;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #DDD8CE;
+}
+.guesslike img{
+    padding: .5rem;
+    width: 6rem;
+    height: 5rem;
+}
+.guesslike .like-what a{
+    border-bottom: 1px solid #DDD8CE;
+}
+.guesslike .like-what{
+    display: flex;
+    flex-direction: column;
+}
+.guesslike .react1{
+    display: flex;
+}
+.guesslike .react1 .dealcard-brand{
+    padding-top: .5rem;
+    margin-bottom: .12rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+}
+.guesslike .react1 .dealcard-title{
+    font-size: .75rem;
+    height: .68rem;
+    margin-bottom: 1.4rem;
+    color: #666;
+    font-weight:400;
+    padding-top: .3rem;
+}
+.guesslike .strong{
+    font-size: 1.1rem;
+    color: #06c1ae;
+    font-weight: 500;
+}
+.guesslike .strong-color{
+    font-size: .8rem;
+    color: #06c1ae;
+}
+.guesslike .price-normal{
+    font-size: .8rem;
+    color: #666;
+    font-weight: 400;
+}
+.guesslike .react1{
+    position: relative;
+}
+.guesslike .line-right{
+    position: absolute;
+    bottom: .3rem;
+    right: .5rem;
+    color: #666;
+    font-size: .8rem;
+    font-weight: 400;
+}

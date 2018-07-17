@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <script src="jquery-1.12.4.js"></script>
+    <script src="jquery.mobile-1.4.5.js"></script>
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="navbar header">
+        <div class="nav-wrap-left">
+            <span class="nav-city">
+                哈尔滨
+            </span>
+        </div>
+        <div class="box-search">
+            <input type="text" placeholder="输入商家/品类/商圈">
+        </div>
+        <div class="nav-wrap-right">
+            <span>我的</span>
+        </div>
+    </header>
+    <div class="banner-load">
+        <img src="img/1.jpg" alt="">
+    </div>
+    <div class="list-in">
+        <img src="img/2.jpg" alt="" class="list1">
+        <img src="img/3.jpg" alt="" class="list2">
+    </div>
+    <div class="daogou">
+        <img src="img/4.jpg" alt="">
+    </div>
+    <div class="guesslike">
+        <div class="like">
+            <span>猜你喜欢</span>
+        </div>
+        <div class="like-what">
+            <a href="" class="react1">
+                <img src="img/6.jpg" alt="">
+                <div class="dealcard">
+                    <div class="dealcard-brand">
+                        哈尔滨天惠酒店+极乐寺
+                    </div>
+                    <div class="dealcard-title">
+                        [全国]哈尔滨天惠酒店+极乐寺
+                    </div>
+                    <div class="price">
+                        <span class="strong">240</span>
+                        <span class="strong-color">元</span>
+                        <span class="price-normal">门市价：240元</span>
+                    </div>
+                </div>
+                <div class="line-right">
+                    已售0
+                </div>
+            </a>
+            <a href="" class="react1">
+                <img src="img/7.jpg" alt="">
+                <div class="dealcard">
+                    <div class="dealcard-brand">
+                        泡泡时尚水汇
+                    </div>
+                    <div class="dealcard-title">
+                        [芦家街/宣化街]单人洗浴门票抢购
+                    </div>
+                    <div class="price">
+                        <span class="strong">15.9</span>
+                        <span class="strong-color">元</span>
+                        <span class="price-normal">门市价：37元</span>
+                    </div>
+                </div>
+                <div class="line-right">
+                    已售6650
+                </div>
+            </a>
+            <a href="" class="react1">
+                <img src="img/8.jpg" alt="">
+                <div class="dealcard">
+                    <div class="dealcard-brand">
+                        鑫海汇烤肉自助
+                    </div>
+                    <div class="dealcard-title">
+                        [太平桥/百盛购物中心]单人自助晚餐/周六周日单人午餐2选1
+                    </div>
+                    <div class="price">
+                        <span class="strong">59.9</span>
+                        <span class="strong-color">元</span>
+                        <span class="price-normal">门市价：88元</span>
+                    </div>
+                </div>
+                <div class="line-right">
+                    已售16675
+                </div>
+            </a>
+            <a href="" class="react1">
+                <img src="img/9.jpg" alt="">
+                <div class="dealcard">
+                    <div class="dealcard-brand">
+                        呷哺呷哺
+                    </div>
+                    <div class="dealcard-title">
+                        [哈尔滨等]100元代金券1张，可叠加
+                    </div>
+                    <div class="price">
+                        <span class="strong">95</span>
+                        <span class="strong-color">元</span>
+                        <span class="price-normal">门市价：100元</span>
+                    </div>
+                </div>
+                <div class="line-right">
+                    已售171083
+                </div>
+            </a>
+            <a href="" class="react1">
+                <img src="img/10.jpg" alt="">
+                <div class="dealcard">
+                    <div class="dealcard-brand">
+                        新名都清水湾
+                    </div>
+                    <div class="dealcard-title">
+                        [船舶/军工]洗浴搓澡+门票
+                    </div>
+                    <div class="price">
+                        <span class="strong">45</span>
+                        <span class="strong-color">元</span>
+                        <span class="price-normal">门市价：48元</span>
+                    </div>
+                </div>
+                <div class="line-right">
+                    已售4231
+                </div>
+
+            </a>
+        </div>
+    </div>
+    <script>
+        /*$('.list-in').on('swipeleft', function () {
+            $('.list-in .list').animate({left:-26},1000)
+            console.log(111);
+        })*/
+        $('.list-in .list1').on('swipeleft', function () {
+            $('.list-in .list1').hide();
+            $('.list-in .list2').show();
+        })
+    </script>
+</body>
+</html>
